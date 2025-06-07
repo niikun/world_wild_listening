@@ -1,0 +1,63 @@
+# World Listening & Wild Listening - LangChain版 Requirements
+# Enhanced with multi-LLM provider support
+
+# UI Framework
+gradio>=4.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.17.0
+
+# LangChain Core
+langchain>=0.1.0
+langchain-core>=0.1.0
+
+# LLM Providers (choose based on your needs)
+# OpenAI
+langchain-openai>=0.0.5
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# Anthropic Claude
+langchain-anthropic>=0.0.1
+anthropic>=0.8.0
+
+# Google Gemini
+langchain-google-genai>=0.0.1
+google-generativeai>=0.3.0
+
+# Ollama (local models)
+langchain-community>=0.0.1
+
+# Additional LangChain utilities
+langchain-experimental>=0.0.1  # For advanced features
+
+# Development utilities
+python-dateutil>=2.8.0
+
+# Optional: Advanced features
+# langsmith>=0.0.1  # For LangChain tracing and monitoring
+# langchain-serve>=0.0.1  # For serving LangChain applications
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# Installation guide:
+# Basic installation (simulation only):
+# pip install gradio pandas numpy plotly langchain langchain-core
+
+# Full installation (all providers):
+# pip install -r requirements.txt
+
+# Provider-specific installation:
+# OpenAI only: pip install langchain-openai openai tiktoken
+# Anthropic only: pip install langchain-anthropic anthropic
+# Google only: pip install langchain-google-genai google-generativeai
+# Local models only: pip install langchain-community
+
+# Note: You only need to install the providers you plan to use

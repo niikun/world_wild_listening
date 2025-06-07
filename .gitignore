@@ -1,0 +1,281 @@
+# World Listening & Wild Listening - .gitignore
+# AI Survey Application with LangChain
+
+# ===== Python =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ===== Virtual Environments =====
+# uv virtual environment
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# conda environments
+.conda/
+
+# ===== UV Package Manager =====
+# UV lock file (commit this)
+# uv.lock
+
+# UV cache
+.uv_cache/
+
+# ===== IDEs and Editors =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# ===== Operating System =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== API Keys and Secrets =====
+# Environment files
+.env
+.env.*
+!.env.example
+
+# API Keys
+api_keys.txt
+secrets.json
+credentials.json
+config.ini
+settings.local.py
+
+# LangSmith / LangChain tracing
+.langsmith/
+
+# ===== Application Specific =====
+# Survey export files
+survey_export_*.csv
+*_report_*.html
+*_report_*.pdf
+survey_results/
+exports/
+
+# Generated persona files
+personas_*.json
+survey_data_*.json
+
+# Log files
+*.log
+logs/
+app.log
+survey.log
+error.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# Cache files
+.cache/
+*.cache
+__pycache__/
+
+# ===== Data Science / ML =====
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Data files (uncomment if you want to ignore data)
+# *.csv
+# *.xlsx
+# *.json
+# data/
+# datasets/
+
+# Model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+
+# ===== Web / Gradio =====
+# Gradio temporary files
+gradio_cached_examples/
+gradio_queue.db
+flagged/
+
+# Static files
+static/
+uploads/
+
+# ===== Documentation =====
+# Sphinx documentation
+docs/_build/
+_build/
+.readthedocs.yml
+
+# MkDocs
+site/
+
+# ===== Databases =====
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Archives =====
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===== Miscellaneous =====
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Lock files (except uv.lock)
+poetry.lock
+Pipfile.lock
+yarn.lock
+package-lock.json
+
+# Node.js (if used for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Custom Project Files =====
+# Development notes
+NOTES.md
+TODO.md
+SCRATCH.md
+
+# Local configuration
+local_settings.py
+development.ini
+
+# Performance profiling
+*.prof
+*.profile
+
+# ===== Keep These Files =====
+# Examples and templates
+!.env.example
+!config.example.json
+!settings.example.py
+
+# Documentation
+!README.md
+!LICENSE
+!CHANGELOG.md
+
+# Configuration templates
+!docker-compose.example.yml
+!requirements.example.txt
